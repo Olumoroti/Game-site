@@ -1,0 +1,91 @@
+html {
+    width: 100%;
+    background-color: rgb(54, 54, 54);
+    color: white;   
+}
+
+#logo {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.topnav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e9e9e9;
+    padding: 0px;
+    color: black;
+}
+
+
+.navbar {
+    width: 60%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.top input {
+    color: black;
+    padding: 5px;
+    width: 40%;
+    text-decoration: none;
+    font-size: 120%;
+    border: 2px solid black;
+}
+
+#about {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+ .game_container {
+    padding: 2%;
+    border: 1px solid orange;
+    border-radius: 1%;
+    margin: 2%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+} 
+
+.game_container.reversed {
+    flex-flow: row-reverse nowrap;
+}
+
+.description {
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 1%;
+    width: 50%;
+    font-size: 200%;
+}
+
+.game_container img {
+   padding: 10px; 
+   margin: 20px;
+   width: 50%;
+   height: 40%;
+
+}
+
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+@media screen and (max-width: 500) {
+
+    html {
+        background-color: black; 
+    }
+
+}
