@@ -1,0 +1,72 @@
+.nav-link {
+    opacity:0.7;
+    
+}   
+.nav-link:hover{
+   opacity: 1;
+   background-color: gray  !important;
+}
+
+.navbar{
+   background-color:gray;
+   height: 50px;
+
+}
+
+.navbar a{
+   text-align: left;
+   display: inline;
+}
+
+.flex-container img{
+    display: flex;
+ 
+}
+#assasin{
+
+    display: flex;
+    font: 5px;
+    border: 1px solid  orange;
+    border-radius: 20px;
+    margin: 10px;
+    
+}
+#spider{
+    display: flex;
+    font: 5px;
+    border: 1px solid  orange;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+#bo2{
+    display: flex;
+    font: 5px;
+    border: 1px solid orange;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+
+img{
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+}
+
+p{
+    padding:10px;
+    color: white;
+}
+
+body{
+    background-color: black;
+}
+
+h2{
+    color: white;
+}
+
+h1{
+    color: white;
+}
